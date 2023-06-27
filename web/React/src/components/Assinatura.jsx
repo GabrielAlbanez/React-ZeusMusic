@@ -12,7 +12,7 @@ const AssianturaComponent = ({ img, titulo, chindren, descricao }) => {
 
 
   return (
-    <div className="bg-gradient-to-tr from-neutral-900 from-40% to-cyan-700 px-10 w-full  sm:w-1/2 h-ful sm:h-1/2 flex items-start justify-evenly border-2 border-white rounded-2xl relative">
+    <div className="bg-gradient-to-tr from-neutral-900 from-40% to-cyan-700 px-10 w-full  h-full sm:w-1/2 sm:h-1/2 flex items-start justify-evenly border-2 border-white rounded-2xl relative">
       <div className="flex items-start justify-center h-24 flex-col  sm:h-10 pt-10">
 
         <div className="flex gap-14 flex-col absolute ">
@@ -116,7 +116,7 @@ const AssianturaComponent = ({ img, titulo, chindren, descricao }) => {
           }
           layout="fill"
           objectFit="cover"
-          className="opacity-10"
+          className="h-full w-full opacity-5"
         />
       </div>
     </div>

@@ -12,7 +12,7 @@ export default function Card({ descricao, Titulo, children, link }) {
   }
 
   return (
-    <div className="bg-neutral-950 w-24 sm:w-full h-auto sm:h-96 flex flex-col items-center relative rounded-2xl p-10">
+    <div className="bg-neutral-950 w-24 sm:w-full h-1/2 sm:h-96 flex flex-col items-center relative rounded-2xl p-10">
       <h1 className="text-cyan-500 shadow-sm shadow-cyan-500/50 text-2xl sm:text-4xl">{Titulo}</h1>
       <button className="text-white bg-cyan-500 shadow-lg rounded-lg shadow-cyan-500/50 w-20 h-9 text-center mt-16">descrições</button>
 
@@ -25,7 +25,7 @@ export default function Card({ descricao, Titulo, children, link }) {
             renderComponent();
             setCardname(Titulo);
           }}
-          className="opacity-10 cursor-pointer transition ease-in-out delay-75 duration-300 hover:scale-125 absolute"
+          className="opacity-10 cursor-pointer transition ease-in-out delay-75 duration-300 hover:scale-125 absolute w-full h-full"
         />
       </div>
 
